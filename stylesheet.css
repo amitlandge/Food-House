@@ -1,0 +1,463 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6))), url("bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("bg.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.container .navbar {
+  width: 100vw;
+  background-color: rgba(26, 24, 24, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  margin-left: 5vmin;
+}
+
+.container .navbar ul li {
+  padding: 5px;
+  padding-right: 7vmin;
+  font-size: 2.8vmin;
+  color: white;
+}
+
+.container .navbar ul li a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .navbar ul li a:hover {
+  color: #106510;
+}
+
+.container .main_content {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main_content h1 {
+  font-size: 13vmin;
+  font-family: 'Merienda', cursive;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 5px #0a0a0a;
+  margin: 0%;
+}
+
+.container .main_content p {
+  font-size: 2.7vmin;
+  letter-spacing: 1.2px;
+  text-shadow: 3px 2px 3px #0a0a0a;
+}
+
+.about_sec {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_sec h1 {
+  font-size: 6.5vmin;
+  color: #3c3838;
+  margin: 0%;
+  text-transform: uppercase;
+}
+
+.about_sec .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about_sec .content .left_content {
+  width: 40%;
+  margin: 3% 7%;
+}
+
+.about_sec .content .left_content h2 {
+  font-size: 5vmin;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about_sec .content .left_content h2 span {
+  color: green;
+}
+
+.about_sec .content .left_content p {
+  letter-spacing: 1px;
+  font-size: 2.7vmin;
+  line-height: 6vmin;
+}
+
+.about_sec .content .left_content .logos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_sec .content .left_content .logos i {
+  width: 30%;
+  font-size: 5vmin;
+  color: green;
+  margin: 10px;
+}
+
+.about_sec .content .right_content {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4% 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_sec .content .right_content img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: 3px 3px 4px #313030;
+          box-shadow: 3px 3px 4px #313030;
+  margin: 10px;
+}
+
+.container02 {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("bg04.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("bg04.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  color: aliceblue;
+}
+
+.container02 h1 {
+  font-size: 7vmin;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0%;
+  letter-spacing: 1px;
+}
+
+.container02 p {
+  letter-spacing: 1px;
+  font-size: 2.5vmin;
+  margin: 12px 0px;
+}
+
+.container02 button {
+  padding: 4px 10px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.4vmin;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.container02 button:hover {
+  background-color: #125b12;
+  color: aliceblue;
+}
+
+.menu_content {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu_content h1 {
+  font-size: 6vmin;
+  color: #2b2a2a;
+  text-transform: uppercase;
+}
+
+.menu_content .cards {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.menu_content .cards .card {
+  width: 30%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.menu_content .cards .card h2 {
+  font-size: 4vmin;
+  font-weight: 500;
+  margin: 0%;
+  color: #312f2f;
+  text-transform: uppercase;
+}
+
+.menu_content .cards .card .list_items {
+  list-style-type: none;
+}
+
+.menu_content .cards .card .list_items li {
+  margin: 15px 10px;
+  padding: 5px;
+}
+
+.menu_content .cards .card .list_items li span {
+  margin-left: 25px;
+  font-size: large;
+  color: #378037;
+  font-weight: 600;
+}
+
+.testimonial {
+  width: 100vw;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("piz.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("piz.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+}
+
+.testimonial h1 {
+  font-size: 6vmin;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.testimonial .testi_content {
+  width: 60%;
+  margin-bottom: 5%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.testimonial .testi_content p {
+  color: #312f2f;
+  font-size: 2.4vmin;
+  letter-spacing: 1px;
+}
+
+.testimonial .testi_content h2 {
+  color: #267926;
+}
+
+.footer {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222020;
+  color: aliceblue;
+}
+
+.footer .left_con {
+  width: 40%;
+  height: auto;
+  text-align: center;
+}
+
+.footer .left_con h1 {
+  font-size: 5vmin;
+  font-weight: 500;
+  margin: 10px;
+  font-family: 'Merienda', cursive;
+  text-transform: uppercase;
+  color: #297829;
+}
+
+.footer .logopng {
+  margin: 15px;
+}
+
+.footer .logopng i {
+  font-size: 4vmin;
+  margin: 15px;
+  cursor: pointer;
+  color: #297829;
+}
+
+.footer .right_con {
+  width: 40%;
+  height: auto;
+}
+
+.footer .right_con h1 {
+  font-size: 4vmin;
+  font-weight: 500;
+  margin: 10px;
+  text-transform: uppercase;
+  color: #297829;
+}
+
+.footer .right_con .payment h2 {
+  font-size: 3.0vmin;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #297829;
+}
+
+.footer .right_con .payment i {
+  margin: 20px;
+  font-size: 4vmin;
+}
+/*# sourceMappingURL=stylesheet.css.map */
